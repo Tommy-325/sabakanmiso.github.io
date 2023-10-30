@@ -1,0 +1,64 @@
+@charset "utf-8";
+body{
+    background-color: #eff7ff;
+    
+}
+.nyuryoku{
+    height: 100px;
+    text-align: center;
+    overflow: scroll;
+    /*opacity: 0.2;*/
+}
+
+.honnyakugo{
+    text-align: center;
+    opacity: 0.2;
+}
+.line1{
+    border-style:solid;
+    border-width:medium;
+    color:#1d1d1d;
+
+}
+
+#btn_box {
+    top: 0;
+    position: fixed;
+    text-align: left;
+}
+
+ul li{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
+.rireki{
+    text-align: center;
+}
+button {/*下記部分のCSSを*/
+    color: #002ae6;
+    background-color: #ffffff;
+    border: none;
+}
+button.btn--circle {
+    border-radius: 50%;/*丸み付けらしい*/
+    line-height: 100px; /*行の高さの最小値*/
+    width: 100px; /*横幅*/
+    height: 100px;/*立幅*/
+    padding: 0; /*余白*/
+    -webkit-box-shadow: 0 5px 0 #002ae6;/*ボタンの色(主)*/
+    box-shadow: 0 5px 0 #000000;/*ボタンの色(影)*/
+  }
+  
+  button.btn--circle:hover {
+    -webkit-transform: translate(0, 3px);
+    transform: translate(0, 3px);
+    -webkit-box-shadow: 0 2px 0 #000000;
+    box-shadow: 0 2px 0 #000000;
+  }
+  button img{
+    margin: auto;
+    display: block;
+    width: 60px; /* アイコンの幅 */
+    height: 60px; /* アイコンの高さ */
+  }
